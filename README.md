@@ -14,7 +14,7 @@ Dit project is een **Star Trek The Next Generation Quote Generator** geschreven 
 
 - **React** – JavaScript bibliotheek voor het bouwen van gebruikersinterfaces.
 - **Font Awesome** – Voor de iconen in de applicatie.
-- **React Hooks (useState, useEffect)** – Voor het beheren van de status en effecten in de applicatie.
+- **React Hooks (useState)** – Voor het beheren van de status in de applicatie.
 - **CSS** – Voor styling en layout van de applicatie.
 - **React Icons** – Voor het gebruik van iconen zoals de Spock-hand.
 

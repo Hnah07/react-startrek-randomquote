@@ -1,50 +1,23 @@
-# React + TypeScript + Vite
+# Star Trek Quote Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dit project is een **Star Trek The Next Generation Quote Generator** geschreven in **React**. Het genereert willekeurige quotes uit de Star Trek-serie en biedt de mogelijkheid om deze naar je klembord te kopiëren. Daarnaast bevat het een mooie interface met iconen en knoppen.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Willekeurige quotes van Star Trek The Next Generation
+- Mogelijkheid om een quote naar je klembord te kopiëren
+- Responsief ontwerp voor zowel desktop- als mobiele schermen
+- Prachtige interface met knoppen en iconen
+- Verandering van quotes bij klikken op de button
 
-## Expanding the ESLint configuration
+## Gebruikte technologieën
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React** – JavaScript bibliotheek voor het bouwen van gebruikersinterfaces.
+- **Font Awesome** – Voor de iconen in de applicatie.
+- **React Hooks (useState, useEffect)** – Voor het beheren van de status en effecten in de applicatie.
+- **CSS** – Voor styling en layout van de applicatie.
+- **React Icons** – Voor het gebruik van iconen zoals de Spock-hand.
 
-- Configure the top-level `parserOptions` property like this:
+## Licentie
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Dit project is gelicentieerd onder de MIT-licentie – zie het [LICENSE.md](LICENSE.md) bestand voor meer informatie.

@@ -2,6 +2,8 @@
 
 Dit project is een **Star Trek The Next Generation Quote Generator** geschreven in **React**. Het genereert willekeurige quotes uit de Star Trek-serie en biedt de mogelijkheid om deze naar je klembord te kopiëren. Daarnaast bevat het een mooie interface met iconen en knoppen.
 
+![example image of the website](image.png)
+
 ## Features
 
 - Willekeurige quotes van Star Trek The Next Generation
